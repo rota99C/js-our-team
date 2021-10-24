@@ -23,4 +23,10 @@ let team = [
     }
 ]
 
-console.log(team)
+for (let index = 0; index < team.length; index++) {
+    const element = team[index];
+    console.log(element.name);
+    console.log(element.role);
+    console.log(element.Image);
+
+}
